@@ -1,0 +1,105 @@
+/**
+ * @file: profile.config.js
+ * @author: Kunal Raikwar
+ * @summary: A full-stack MERN developer with a professional mindset,
+ * strong fundamentals, and hands-on experience with modern web tools.
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "React.js",      // 95%
+    "JavaScript",    // 90%
+    "HTML5",         // 99%
+    "CSS3",          // 96%
+    "SCSS",          // 98%
+    "Tailwind CSS",  // 96%
+  ],
+  backend: [
+    "Node.js",       // 70%
+    "Express.js",    // 65%
+    "MongoDB",       // 70%
+  ],
+  tools: ["Git",n"GitHub", "Vercel", "Postman", "VS Code"]
+};
+
+// --------------------------------------------------
+// 2. DEVELOPER PROFILE
+// --------------------------------------------------
+
+class DeveloperProfile {
+
+  /** * ROLE & FOCUS
+   * @level Fresher
+   */
+  introduction() {
+    const role = "Full Stack Developer (MERN)";
+    const experience = "Fresher";
+    const focus = "Building scalable full-stack applications with clean UI and reliable APIs";
+    const mindset = "Professional, consistent, and improvement-driven";
+
+    return { role, experience, focus, mindset };
+  }
+
+  /** * DEVELOPMENT APPROACH
+   * @style Practical & project-based
+   */
+  workStyle() {
+    this.frontend = "Component-based React architecture with responsive design";
+    this.backend = "REST APIs with Node, Express, and MongoDB";
+    this.tools = "Version control, deployment, and API testing";
+
+    // Focus on writing readable, maintainable JavaScript code
+    // Continuous learning through real-world projects
+  }
+}
+
+// --------------------------------------------------
+// 3. CURRENT STATUS
+// --------------------------------------------------
+
+const availability = {
+  status: "Open to opportunities",
+  lookingFor: ["Internship", "Entry-Level Full Stack Role"],
+  location: "India / Remote",
+};
+
+// --------------------------------------------------
+// 4. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = new Map([
+  [
+    "Babu Banarasi Das University, Lucknow",
+    "BCA (Bachelor of Computer Applications) | 2023 – 2026 | Lucknow"
+  ]
+]);
+
+// --------------------------------------------------
+// 5. PERSONAL STATEMENT
+// --------------------------------------------------
+
+const statement = `
+I am a MERN stack full-stack developer with a strong command of JavaScript
+and hands-on experience in building frontend interfaces and backend APIs.
+I focus on clean code, structured development, and continuous skill growth
+through real projects and modern tools.
+`;
+
+export default new DeveloperProfile();
+
+
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ kunal --status
+> Role: Full Stack Developer (MERN)
+> Education: BCA (2023 – 2026)
+> University: Babu Banarasi Das University, Lucknow
+> Location: Lucknow, India
+> Status: Open to Opportunities
+> Mode: Learning • Building • Improving
+> Ready.
+
