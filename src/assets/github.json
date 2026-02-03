@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "/public/project1.png",
+    "image": "/project1.png",
     "title": "Design-Studio ",
     "description": "A simple Figma-like design editor built with HTML, CSS, and JavaScript.Create shapes, add text & comments, manage layers, and export your design as JSON.",
     "tags": ["HTML", "SCSS", "JavaScript"],
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "/public/project2.png",
+    "image": "/project2.png",
     "title": "Responsive-UI-Clone ",
     "description": "Built a fully responsive front-page UI of a website clone using HTML and SCSS. Focused on layout, styling, and cross-browser compatibility no interactive features implemented.",
     "tags": ["HTML", "SCSS", "JavaScript"],
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image": "/public/project3.png",
+    "image": "/project3.png",
     "title": "Modern-Landing-Page",
     "description": " Built a modern landing page with interactive hover effects and animated background using JavaScript; layout is structured with partial responsiveness.",
     "tags": ["HTML", "SCSS", "JavaScript"],
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "image": "/public/project4.png",
+    "image": "/project4.png",
     "title": "Productivity-Dashboard",
     "description":"Built a feature rich web app including To Do list, Daily Planner, Pomodoro Timer, Motivational Quotes, Daily Goals, Weather updates, and Theme switching. Focused on interactive UI and user-friendly interface for enhanced productivity.",
     "tags": ["HTML", "SCSS", "JavaScript"],
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "image": "/public/project5.png",
+    "image": "/project5.png",
     "title": "Ecommerce-Website-Clone",
     "description": " Designed a static single page e-commerce UI using HTML and SCSS, focusing on layout, styling, and visually appealing interface. No interactivity or multi page navigation implemented.",
     "tags": ["HTML", "SCSS", "JavaScript"],
