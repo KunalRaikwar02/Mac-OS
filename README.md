@@ -1,6 +1,6 @@
 # 💻 Mac-OS (Web OS Portfolio)
 
-A **MacOS-inspired Web OS** built using **React** & **SCSS** that simulates a desktop-like environment inside the browser.  
+A **MacOS inspired Web OS** built using **React** & **SCSS** that simulates a desktop like environment inside the browser.  
 This project works like a mini operating system where users can open apps from the taskbar, manage windows, change wallpapers, and explore projects — all in one place.
 
 ---
@@ -12,7 +12,7 @@ https://mac-os-mauve.vercel.app/
 
 ## ✨ Key Features
 
-- 🖥️ MacOS-style desktop UI
+- 🖥️ MacOS style desktop UI
 - ⚡ Boot / Welcome screen animation
 - 🪟 Window-based application system
 - 📌 Taskbar (Dock) with interactive icons
@@ -50,7 +50,7 @@ https://mac-os-mauve.vercel.app/
 - Opens default mail client to contact directly
 
 ### 🖥️ Terminal
-- CLI-style terminal window for a developer-like experience
+- CLI style terminal window for a developer-like experience
 
 ### 🔗 GitHub Profile Link
 - Direct link to GitHub profile from the taskbar
