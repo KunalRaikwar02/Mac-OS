@@ -12,7 +12,7 @@
     "id": 2,
     "image": "/public/project2.png",
     "title": "Responsive-UI-Clone ",
-    "description": "A pixel-perfect clone of a modern website's UI, built using HTML, SCSS, and JavaScript, fully responsive across devices and screen sizes.",
+    "description": "Built a fully responsive front-page UI of a website clone using HTML and SCSS. Focused on layout, styling, and cross-browser compatibility no interactive features implemented.",
     "tags": ["HTML", "SCSS", "JavaScript"],
     "repoLink": "https://github.com/KunalRaikwar02/responsive-ui-clone",
     "demoLink": "https://responsive-ui-clone.vercel.app/"
@@ -21,7 +21,7 @@
     "id": 3,
     "image": "/public/project3.png",
     "title": "Modern-Landing-Page",
-    "description": "A clean and modern landing page built using HTML, SCSS, and JavaScript, featuring responsive design, smooth animations, and interactive elements.",
+    "description": " Built a modern landing page with interactive hover effects and animated background using JavaScript; layout is structured with partial responsiveness.",
     "tags": ["HTML", "SCSS", "JavaScript"],
     "repoLink": "https://github.com/KunalRaikwar02/Modern-Landing-Page",
     "demoLink": "https://modern-landing-page-snowy.vercel.app/"
@@ -30,7 +30,7 @@
     "id": 4,
     "image": "/public/project4.png",
     "title": "Productivity-Dashboard",
-    "description":"Productivity dashboard built with HTML, SCSS, and JavaScript, displaying interactive charts, task management features, and clean UI components.",
+    "description":"Built a feature rich web app including To Do list, Daily Planner, Pomodoro Timer, Motivational Quotes, Daily Goals, Weather updates, and Theme switching. Focused on interactive UI and user-friendly interface for enhanced productivity.",
     "tags": ["HTML", "SCSS", "JavaScript"],
     "repoLink": "https://github.com/KunalRaikwar02/productivitydashboard",
     "demoLink": "https://productivitydashboard-alpha.vercel.app/"
@@ -39,7 +39,7 @@
     "id": 5,
     "image": "/public/project5.png",
     "title": "Ecommerce-Website-Clone",
-    "description": "E-commerce website clone built with HTML, SCSS, and JavaScript, replicating a modern online store with product listing, navigation, and UI interactions.",
+    "description": " Designed a static single page e-commerce UI using HTML and SCSS, focusing on layout, styling, and visually appealing interface. No interactivity or multi page navigation implemented.",
     "tags": ["HTML", "SCSS", "JavaScript"],
     "repoLink": "https://github.com/KunalRaikwar02/e-commerce-website-clone",
     "demoLink": "https://e-commerce-website-clone-mu.vercel.app/"
