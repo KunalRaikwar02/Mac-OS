@@ -18,6 +18,7 @@
         .dots{
             display: flex;
             gap: 0.25rem;
+            cursor: pointer;
 
             .dot{
             height: 15px;
@@ -28,16 +29,34 @@
 
         .red{
             background-color: rgb(220, 52, 52);
-            cursor: default;
         }
+
+        .red:hover,
+        .green:hover,
+        .yellow:hover {
+            background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+        }
+
+         .red:hover {
+    background-image: url("/doc-icons/close.svg");
+  }
 
         .yellow{
             background-color: rgb(215, 215, 40);
         }
 
+        .yellow:hover {
+    background-image: url("/doc-icons/minimize.svg");
+  }
         .green{
             background-color: rgb(33, 183, 33);
         }
+
+        .green:hover {
+    background-image: url("/doc-icons/restore.svg");
+  }
         }
     }
 

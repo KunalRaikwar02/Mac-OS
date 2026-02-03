@@ -13,7 +13,7 @@
           backdrop-filter: blur(5px);
 }
 .dock .icon {
-  padding: 0.65rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   display: flex;
   justify-content: center;

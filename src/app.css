@@ -24,4 +24,15 @@ main {
 
 body {
   background-color: black;
+}
+
+.desktop {
+  filter: blur(12px);
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+
+.desktop.show {
+  filter: blur(0);
+  opacity: 1;
 }/*# sourceMappingURL=app.css.map */

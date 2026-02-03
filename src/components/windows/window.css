@@ -18,6 +18,7 @@
 .window .nav .dots {
   display: flex;
   gap: 0.25rem;
+  cursor: pointer;
 }
 .window .nav .dots .dot {
   height: 15px;
@@ -27,13 +28,28 @@
 }
 .window .nav .dots .red {
   background-color: rgb(220, 52, 52);
-  cursor: default;
+}
+.window .nav .dots .red:hover,
+.window .nav .dots .green:hover,
+.window .nav .dots .yellow:hover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+.window .nav .dots .red:hover {
+  background-image: url("/doc-icons/close.svg");
 }
 .window .nav .dots .yellow {
   background-color: rgb(215, 215, 40);
 }
+.window .nav .dots .yellow:hover {
+  background-image: url("/doc-icons/minimize.svg");
+}
 .window .nav .dots .green {
   background-color: rgb(33, 183, 33);
+}
+.window .nav .dots .green:hover {
+  background-image: url("/doc-icons/restore.svg");
 }
 .window .main-content {
   height: 100%;

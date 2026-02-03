@@ -1,0 +1,59 @@
+.boot-screen {
+  position: fixed;
+  inset: 0;
+  background: black;
+  color: #eaeaea;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+
+ transition: opacity 0.5s ease;
+
+
+  &.fade-out {
+    opacity: 0;
+  }
+
+  .welcome,
+  .boot {
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+  }
+
+  .logo {
+    width: 80px;
+    margin-bottom: 1.5rem;
+  }
+
+  .loader {
+    width: 220px;
+    height: 4px;
+    background: #333;
+    border-radius: 10px;
+    margin-top: 2rem;
+    overflow: hidden;
+
+    .bar {
+      height: 100%;
+      background: #eaeaea;
+      transition: width 0.1s linear;
+    }
+  }
+}
+
+/* 🔥 Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
